@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+  background-color: #000000c7;
+  color: white;
+}
+
+.navbar{
+  box-shadow: 7px 3px 10px 0px #131111d4;
+}
+
+.movieName{
+  width: 185px;
+}
+
+.hidden{
+  display: none;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.flex{
+  display: flex;
+}
+
+.green{
+  color : green;
+}
+
+.yellow{
+  color : yellow;
+}
+
+.red{
+  color : red;
+}
+
+.movieImage{
+  margin: 15px;
+}
+
+.movieImage.highlight img{
+  border : 3px solid #17a2b8;
+}
+
+.navigation{
+  margin-right : 10px;
+}
+
+.card{
+  display : flex;
+  flex-direction: row !important;
+  height: 500px;
+  width: 97%;
+  padding: 20px;
+}
+
+.container{
+  max-width : 97% !important;
+  margin : 30px;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background: transparent;
+}
+
+.overlay img{
+  width: 100%;
+  opacity: 0.2;
+  height: 700px;
+  filter : blur(10px);
+}
+
+.card.movieDetails{
+  border : none;
+  background: none;
+}
+
+.play-container{
+  position: absolute;
+  left: 35%;
+  top : 40%;
+}
+
+.embed-responsive.embed-responsive-21by9{
+  width : 60%;
+  margin-right: 30px;
+}
+
+.btn.genre{
+  margin-right : 10px;
+  border-radius: 15px;
+}
+
+
+
+.btn.genre.btn-outline-info:not(:disabled):not(.disabled):active{
+  color: #17a2b8;
+  border-color: #17a2b8;
+  background-color: transparent;
+ 
+}
+
+.btn.genre.btn-outline-info:not(:disabled):not(.disabled):focus{
+  box-shadow: none;
+}
+.btn.genre.btn-outline-info:hover:focus, .btn.genre.btn-outline-info:hover{
+  color: #17a2b8;
+  border-color: #17a2b8;
+  background-color: transparent;
+  box-shadow : none;
+}
+
+.btn.genre.circle{
+  border-radius: 25px;
+  padding: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+
+.btn.genre.circle.green{
+  border-color: green;
+}
+
+.btn.genre.circle.yellow{
+  border-color: yellow;
+}
+
+.btn.genre.circle.red{
+  border-color: red;
+}
+
+.iconData{
+  margin-right: 10%;
+}
+
+i{
+  margin: 5px;
+}
+
+.iconData i{
+  font-size: 24px;
+  margin : 10px;
+}
+
+i.fa.fa-play-circle{
+  font-size: 40px;
+}
+
+i.fa.fa-question{
+  color : yellow;
+  margin-right : 8px;
+  margin-left : 8px;
+}
+
+.circle i.fa.fa-thumbs-up{
+  color : green;
+}
+
+.circle i.fa.fa-thumbs-down{
+  color : red;
+}
+
+.mediumText{
+  font-size: 16px;
+}
+
+.smallText{
+  font-size: 12px;
+}
+
+.extraSmallText{
+  font-size: 10px;
+}
+
+.card-body{
+  width : 100%;
+  height: 100%;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0%;
+  width: 37%;
+
+}
+
+.footer.marginNegative{
+  margin-left : -3%;
+}
+
+.center{
+  text-align: center;
+}
+
+.cardContainer{
+  width: 37%;
+  background: rgba(4, 4, 4, 0.17);
+}
+
+.movieDate{
+  position: absolute;
+  right: 15%;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #17a2b8;
+  padding: 2px;
+  margin: 5px;
+}
+
+.date{
+  width: 30px;
+  font-size: 12px;
+  margin: 2px;
+}
